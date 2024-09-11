@@ -14,6 +14,7 @@ console.log(carros);
 carros.push('Volvo');
 console.log(carros);
 
+
 // 4. Exiba quantos itens tem no array
 // Resposta: 
 console.log(`Quantidade de itens no array carros: ${carros.length}`);
