@@ -25,6 +25,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Aqui onde eu resolvo diversos exercicios de lógica de programação e páginas WEB que treinam a utilização do JavaScript.
 
  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Andrew Raphael</a>.
   </div>
