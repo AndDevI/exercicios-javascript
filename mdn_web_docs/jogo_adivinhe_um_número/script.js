@@ -16,7 +16,7 @@ function conferirPalpite() {
 
     if (palpiteUsuario === numeroAleatorio) {
         ultimoResultado.textContent = "Parabéns! Você acertou!";
-        ultimoResultado.classList.add(
+        ultimoResultado.classNameList.add(
             "bg-green-500",
             "text-center",
             "text-black",
@@ -30,7 +30,7 @@ function conferirPalpite() {
         configFimDeJogo();
     } else {
         ultimoResultado.textContent = "Errado!";
-        ultimoResultado.classList.add(
+        ultimoResultado.classNameList.add(
             "bg-red-500",
             "text-center",
             "text-white",
@@ -57,7 +57,7 @@ function configFimDeJogo() {
     const mainElement = document.getElementById('main-content');
     botaoReinicio = document.createElement("button");  
     botaoReinicio.textContent = "Iniciar novo jogo";
-    botaoReinicio.classList.add(
+    botaoReinicio.classNameList.add(
         "bg-blue-500",
         "p-3",
         "text-white",
@@ -77,7 +77,7 @@ function reiniciarJogo() {
 
     palpites.textContent = "";  
     ultimoResultado.textContent = "";
-    ultimoResultado.className = '';
+    ultimoResultado.classNameName = '';
     baixoOuAlto.textContent = "";  
 
     if (botaoReinicio) {  
