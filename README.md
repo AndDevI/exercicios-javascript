@@ -19,6 +19,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Aqui onde eu resolvo diversos exercicios de lógica de programação e páginas WEB que treinam a utilização do JavaScript.
 
- <div className="attribution">
+ <div class="attribution">
     Coded by <a href="#">Andrew Raphael</a>.
   </div>
