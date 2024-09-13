@@ -76,7 +76,8 @@ function reiniciarJogo() {
     contagemPalpites = 1;
 
     palpites.textContent = "";  
-    
+    ultimoResultado.textContent = "";
+    ultimoResultado.className = '';
     baixoOuAlto.textContent = "";  
 
     if (botaoReinicio) {  
@@ -87,8 +88,6 @@ function reiniciarJogo() {
     envioPalpite.disabled = false;
     campoPalpite.value = "";
     campoPalpite.focus();
-
-    ultimoResultado.style.backgroundColor = "white";
 
     numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 }
