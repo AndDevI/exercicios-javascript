@@ -18,6 +18,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Aqui onde eu resolvo diversos exercicios de lógica de programação e páginas WEB que treinam a utilização do JavaScript.
+Foram feitos:
+  - Exercicios de lógica pela B7Web
+  - Jogo de advinhar o numero pela página do DocsJS
+  - Gerador de história pela página do DocsJS
 
  <div class="attribution">
     Coded by <a href="#">Andrew Raphael</a>.
