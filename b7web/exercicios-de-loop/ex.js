@@ -1,4 +1,10 @@
 // 1. Faça um loop que mostre todas as frutas 
-let fruits = ["Maça", "Uva", "Banana"]
+// let fruits = ["Maça", "Uva", "Banana"]
 
 // 2. Conte de 1 até 100 através de um WHILE
+let number = 1
+
+while (number <= 100) {
+    console.log(number);
+    number++;
+}
