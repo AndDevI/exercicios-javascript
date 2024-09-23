@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>Lista</title>
+    </head>
+    <body class="bg-gray-100">
+        <main class="flex items-center justify-center h-screen">
+            <div class="flex flex-col items-center shadow-2xl rounded-xl p-10 gap-5">
+                <h1 class="font-bold text-2xl">LISTA</h1>
+                <ul class="list-disc">
+                </ul>
+                <input 
+                    type="text" 
+                    id="textInput"
+                    placeholder="Digite aqui..."
+                    class="border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 hover:border-blue-500 transition duration-300 placeholder:italic placeholder:text-slate-400"
+                >
+                <button class="bg-red-500 p-3 rounded-xl text-white">LIMPAR</button>
+            </div>
+        </main>
+
+        <script src="../criando-uma-lista/script.js" defer></script>
+    </body>
+</html>
